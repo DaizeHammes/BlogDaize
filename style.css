@@ -1,17 +1,17 @@
-/* CSS geral da página */
-
 /* Esconde a barra de rolagem */
 ::-webkit-scrollbar {
     display: none;
 }
 
+/* CSS geral da página */
+
 body {
     font-family: 'Lora', serif;
 }
 
-/* Header */
+/* CSS do Header */
 header {   
-    background: url("header.png");
+    background: url("img/header.png");
     background-position: center;
     background-size: cover;
 }
@@ -151,4 +151,83 @@ main {
 
 .artigos p {
     font-size: 16px;
+}
+
+/* CSS da seção Contato */
+
+.contato {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 60px;
+}
+
+form {
+    width: 50%;
+    display: inline-block;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 16px;
+    margin: 20px 0 5px;
+    font-weight: bold;
+}
+
+.input-padrao {
+    display: block;
+    padding: 5px 15px;
+    width: 300px;
+}
+
+.checkbox {
+    font-size: 13px;
+    margin: 0;
+}
+
+.enviar {
+    width: 320px;
+    margin: 20px 0 5px 1%;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #DDC;
+    border: 1px solid #343A40;
+    transition: 300ms all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #343A40;
+    color: #DDC;
+}
+
+.contato-img {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-top: 40px;
+    opacity: 80%;
+}
+
+/* CSS do Footer */
+
+footer {
+    background: #343A40;
+}
+
+.redes-sociais {
+    text-align: center;
+    padding: 60px;
+}
+
+.redes-sociais img {
+    margin: 10px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding: 40px;
 }
