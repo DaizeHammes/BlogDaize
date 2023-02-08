@@ -11,7 +11,7 @@ body {
 
 /* CSS do Header */
 header {   
-    background: url("img/header.png");
+    background: url("img/header-back.png");
     background-position: center;
     background-size: cover;
 }
