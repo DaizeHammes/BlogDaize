@@ -1,8 +1,10 @@
 # Blog da Daize
 
-Projeto criado para treinar minhas habilidades dem HTML e CSS
+Projeto criado para treinar minhas habilidades de HTML e CSS
 
 ### 🧱 Este repositório ainda está em construção...
+
+https://daizehammes.github.io/BlogDaize/
 
 Entre as mudanças que ainda serão implantadas, estão:  
 
